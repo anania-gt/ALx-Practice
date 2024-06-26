@@ -25,3 +25,8 @@ class TestCustomer(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+
+'''
+Unittests example
+'''
