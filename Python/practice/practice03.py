@@ -26,4 +26,13 @@ if __name__ == "__main__":
     print("Running tests...")
     print(f"add(2, 3) = {add(2, 3)}")  # Expected output: 5
     print(f"subtract(5, 3) = {subtract(5, 3)}")  # Expected output: 2
+
+
+we can also remove 
+if __name__ == "__main__":
+import doctest
+doctest.testmod(verbose=True)
+
+and run the file as python -m doctest -v your_script.py
+
 """
