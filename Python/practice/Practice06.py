@@ -12,3 +12,13 @@ python_dict = {
 # Convert to JSON string
 json_string = json.dumps(python_dict)
 print(json_string)
+
+
+#writing to a json file
+
+with open('data.json', 'w') as obj:
+    json.dump(json_string,obj)
+
+
+json_string = json.dumps(python_dict, indent=4)
+print(json_string)
